@@ -1,0 +1,59 @@
+    body {
+    font-family: monospace;
+    font-size: 14px;
+}
+    h1 {
+        font-size: 40px;
+        color: #e93b81;
+        font-style:unset;
+        text-align: center;
+}
+    h2 {
+            font-size: 35px;
+            font-style: unset;
+            text-align: center;
+}
+    h3 {
+        font-size: 30px;
+        font-style: unset;
+        color:#aa2ee6;
+        text-align: center;
+}
+    h4 {
+    font-size: 20px;
+    font-style: unset;
+    color:#cfac2d;
+    text-align: center;
+}
+a {
+    color: #aa2ee6;
+}
+    .menu ul {
+    /* listeleme işaretlerini kaldırdık.*/
+    list-style-type:none;
+    padding-left: 0px;
+    /*yatay menüyü ortaladık.*/ 
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+    .menu ul li {
+    display:inline-block;
+    width:110px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+} 
+    #altmenu ul li {
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    list-style-position:inside;
+}
+    #altmenu2 ol li {
+    text-align: center;
+    list-style-position:inside;
+}
+  
